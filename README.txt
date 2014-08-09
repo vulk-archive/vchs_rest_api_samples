@@ -34,23 +34,23 @@ The following information explains how to run and pass the parameters to each sa
 1. VDCListSample
 ------------------------------------------------
 Windows:
-run.bat com.vmware.vchs.publicapi.samples.VDCListSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --vchsversion 5.6 --vcloudversion 5.1
+run.bat com.vmware.vchs.publicapi.samples.VDCListSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --vchsversion 5.6 --vcloudversion 5.6
 
 Linux/Mac:
-./run.sh com.vmware.vchs.publicapi.samples.VDCListSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --vchsversion 5.6 --vcloudversion 5.1
+./run.sh com.vmware.vchs.publicapi.samples.VDCListSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --vchsversion 5.6 --vcloudversion 5.6
 
 2. VMCreateSample
 ------------------------------------------------
 Windows:
-run.bat com.vmware.vchs.publicapi.samples.VMCreateSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --targetvappname <name of vApp> --vchsversion 5.6 --vdcname <name of VDC> --vcloudversion 5.1 --orgnet <name of network> --vchstemplatename <name of template catalog>
+run.bat com.vmware.vchs.publicapi.samples.VMCreateSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --targetvappname <name of vApp> --vchsversion 5.6 --vdcname <name of VDC> --vcloudversion 5.6 --orgnet <name of network> --vchstemplatename <name of template catalog>
 
 Linux/Mac:
-./run.sh com.vmware.vchs.publicapi.samples.VMCreateSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --targetvappname <name of vApp> --vchsversion 5.6 --vdcname <name of VDC> --vcloudversion 5.1 --orgnet <name of network> --vchstemplatename <name of template catalog>
+./run.sh com.vmware.vchs.publicapi.samples.VMCreateSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --targetvappname <name of vApp> --vchsversion 5.6 --vdcname <name of VDC> --vcloudversion 5.6 --orgnet <name of network> --vchstemplatename <name of template catalog>
 
 3. GatewayRuleSample
 ------------------------------------------------
 Windows:
-run.bat com.vmware.vchs.publicapi.samples.GatewayRuleSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --vchsversion 5.6 --internalip <internal ip> --externalip <external ip> --vdcname <name of VDC> --vcloudversion 5.1 --edgegateway <edge gateway>
+run.bat com.vmware.vchs.publicapi.samples.GatewayRuleSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --vchsversion 5.6 --internalip <internal ip> --externalip <external ip> --vdcname <name of VDC> --vcloudversion 5.6 --edgegateway <edge gateway>
 
 Linux/Mac:
-./run.sh com.vmware.vchs.publicapi.samples.GatewayRuleSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --vchsversion 5.6 --internalip <internal ip> --externalip <external ip> --vdcname <name of VDC> --vcloudversion 5.1 --edgegateway <edge gateway>
+./run.sh com.vmware.vchs.publicapi.samples.GatewayRuleSample --url <url to vCHS Public API> --username <vchs username> --password <vchs password> --vchsversion 5.6 --internalip <internal ip> --externalip <external ip> --vdcname <name of VDC> --vcloudversion 5.6 --edgegateway <edge gateway>
